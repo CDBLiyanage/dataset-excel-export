@@ -1,1 +1,12 @@
 spring:
+  application:
+    name: excelexport
+  profiles:
+    active: dev
+
+export:
+  batch-size: 10000
+  max-threads: 1
+  max-concurrent-exports: 1
+  window-size: 100
+
